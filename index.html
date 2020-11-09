@@ -7,8 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
-        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous"> -->
+
 
 
 
@@ -18,48 +17,45 @@
     <section class="tachenrechner ">
         <div class="result">
             <p id="result1" style="color: white;"></p>
-            <p id="result2"></p>
+            <p id="result2" style="color: white;"></p>
         </div>
         <div class="array1 ">
             <button onclick="loschen()">c</button>
-            <button onclick="mindurch()">&#177;</button>
+            <!-- <button onclick="mindurch()">&#177;</button> -->
             <button onclick="prozent()">%</button>
-            <button id="test" onclick="durch()">&#247;</button>
-
-
-
+            <button id="test" onclick="zahl('/')">&#247;</button>
 
         </div>
         <div class="array2">
-            <button onclick="seben()">7</button>
-            <button onclick="acht()">8</button>
-            <button onclick="noin()">9</button>
-            <button onclick="mal()">x</button>
+            <button onclick="zahl('7')">7</button>
+            <button onclick="zahl('8')">8</button>
+            <button onclick="zahl('9')">9</button>
+            <button onclick="zahl('x')">x</button>
 
 
 
 
         </div>
         <div class="array3">
-            <button onclick="vier()">4</button>
-            <button onclick="funf()">5</button>
-            <button onclick="sechs()">6</button>
-            <button onclick="min()">-</button>
+            <button onclick="zahl('4')">4</button>
+            <button onclick="zahl('5')">5</button>
+            <button onclick="zahl('6')">6</button>
+            <button onclick="zahl('-')">-</button>
 
 
         </div>
         <div class="array4">
-            <button onclick="eins()">1</button>
-            <button onclick="zwei()">2</button>
-            <button onclick="drei()">3</button>
-            <button onclick="plus()">+</button>
+            <button onclick="zahl('1')">1</button>
+            <button onclick="zahl('2')">2</button>
+            <button onclick="zahl('3')">3</button>
+            <button onclick="zahl('+')">+</button>
 
 
 
         </div>
         <div class="array5">
-            <button onclick="nul()" style="width: 49.4%;">0</button>
-            <button onclick="kommer()">,</button>
+            <button onclick="zahl('0')" style="width: 49.4%;">0</button>
+            <button onclick="zahl(',')">.</button>
 
             <button onclick="gleisch()">=</button>
         </div>
