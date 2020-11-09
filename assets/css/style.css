@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+section {
+  background-color: black;
+  width: 30%;
+  height: 80vh;
+  border-radius: 10px;
+}
+button {
+  font-size: 40px;
+  width: 24.4%;
+  height: 10vh;
+  border-radius: 90px;
+  /* clip-path: circle(); */
+  margin-bottom: 3%;
+  background-color: gray;
+  color: white;
+  transition: all 0.5s linear;
+}
+.array1 {
+  margin-top: 42%;
+}
+div button:hover {
+  background-color: white;
+  color: black;
+}
+.array1 button {
+  background-color: lightgray;
+  color: black;
+  transition: all 0.5s linear;
+}
+.array1 button:hover {
+  background-color: white;
+  color: black;
+}
+
+div button:last-child {
+  background-color: orange;
+  color: white;
+  transition: all 0.5s linear;
+}
+div button:last-child:hover {
+  background-color: white;
+  color: black;
+}
